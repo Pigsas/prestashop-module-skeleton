@@ -1,0 +1,22 @@
+{
+    "name": "printplius/module_skeleton",
+    "description": "Prestashop module",
+    "authors": [
+        {
+            "name": "Pigsas",
+            "email": "b.kazimieras17@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "PrintPlius\\ModuleSkeleton\\": "src/"
+        },
+        "classmap": ["classes/"]
+    },
+    "config": {
+        "prepend-autoloader": false
+    },
+    "type": "prestashop-module"
+}
